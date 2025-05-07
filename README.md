@@ -17,9 +17,9 @@
   - Create [snippets json](./snippets/snippets.json) file
   - Edit snippets variable in [extension.toml](./extension.toml)
 
-<details><summary>Make sure to remove and files and code that dont ahve anything to do with your extension type</summary>
+<details><summary>Make sure to remove and files and code that dont have anything to do with your extension type</summary>
 
-<br>
+
 Extension specific things:
 - theme:
   - [themes/](./themes)
