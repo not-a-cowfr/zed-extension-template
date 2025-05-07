@@ -6,7 +6,7 @@ struct MyExtension {
 
 impl zed::Extension for MyExtension {
     fn new() -> Self {
-        Self
+        Self {}
     }
     // ...
 }
