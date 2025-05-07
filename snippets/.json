@@ -1,7 +1,7 @@
 {
   "snippet name": {
     "prefix": "snippet-prefix",
-    "description": "what this snipper does",
+    "description": "what this snippet does",
     "body": [
       "// hi! this is line one!",
       "println!(${1:Hello}, \"$2!\")",

@@ -9,4 +9,4 @@ repository     = "https://github.com/not-a-cowfr/zed-extension-template"
 schema_version = 2
 
 # for snippets
-snippets = "./snippets/snippets.json"
+snippets = "./snippets/<language>.json"
