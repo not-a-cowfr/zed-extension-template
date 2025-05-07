@@ -17,4 +17,4 @@ and make sure to remove and files and code that dont ahve anything to do with yo
 
 > [!IMPORTANT]
 > The docs are your best friend! Please read them at https://zed.dev/docs/extensions/developing-extensions
-> Additionally, for each individual extension type, I've linked more resources in their respective READEME.md
+> Additionally, for each individual extension type, I've linked more resources in their respective README.md
