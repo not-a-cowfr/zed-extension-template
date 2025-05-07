@@ -1,5 +1,9 @@
 <h1><a href="https://zed.dev/">Zed</a> extension template</h1>
 
+> [!IMPORTANT]
+> The docs are your best friend! Please read them at https://zed.dev/docs/extensions/developing-extensions
+> Additionally, for each individual extension type, I've linked more resources in their respective README.md
+
 - To make a theme extension:
   - Create json schema in [themes](./themes) directory
   - Edit schema version variable in [extension.toml](./extension.toml)
@@ -15,26 +19,23 @@
 
 <details><summary>Make sure to remove and files and code that dont ahve anything to do with your extension type</summary>
 
+<br>
 Extension specific things:
 - theme:
-  - themes/
-  - schema_version var in exntension.toml
+  - [themes/](./themes)
+  - schema_version var in [extension.toml](./extension.toml)
 - regular:
-  - src/
-  - cargo.toml
-  - cargo.lock
-  - .gitignore, since it currently is only for target/
+  - [src/](./src)
+  - [cargo.toml](./cargo.toml)
+  - [cargo.lock](./cargo.lock)
+  - [.gitignore](./.gitignore), since it currently is only for target/
 - language:
-  - languages/
-  - config.toml
+  - [languages/](./languages)
+  - [config.toml](./config.toml)
 - snippets:
-  - snippets/
-  - snippets var in extension.toml
+  - [snippets/](./snippets)
+  - snippets var in [extension.toml](./extension.toml)
 
 </details>
 
 And dont forget, if you wish to use a different license, change it! This repository uses the unlicense which may not be what you want
-
-> [!IMPORTANT]
-> The docs are your best friend! Please read them at https://zed.dev/docs/extensions/developing-extensions
-> Additionally, for each individual extension type, I've linked more resources in their respective README.md
