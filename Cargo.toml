@@ -1,0 +1,15 @@
+# This is for regular extensions, remove this file if you're making a theme or a language extension
+
+[package]
+name = "extension-name"
+version = "0.0.1"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.5.0"
+
+[workspace]
+members = ["."]
