@@ -13,7 +13,27 @@
   - Create [snippets json](./snippets/snippets.json) file
   - Edit snippets variable in [extension.toml](./extension.toml)
 
-and make sure to remove and files and code that dont ahve anything to do with your extension type
+<details><summary>Make sure to remove and files and code that dont ahve anything to do with your extension type</summary>
+
+Extension specific things:
+- theme:
+  - themes/
+  - schema_version var in exntension.toml
+- regular:
+  - src/
+  - cargo.toml
+  - cargo.lock
+  - .gitignore, since it currently is only for target/
+- language:
+  - languages/
+  - config.toml
+- snippets:
+  - snippets/
+  - snippets var in extension.toml
+
+</details>
+
+And dont forget, if you wish to use a different license, change it! This repository uses the unlicense which may not be what you want
 
 > [!IMPORTANT]
 > The docs are your best friend! Please read them at https://zed.dev/docs/extensions/developing-extensions
