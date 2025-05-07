@@ -6,7 +6,6 @@
 
 - To make a theme extension:
   - Create json schema in [themes](./themes) directory
-  - Edit schema version variable in [extension.toml](./extension.toml)
 - To make a regular extension:
   - Edit [cargo.toml](./cargo.toml)
   - Edit [src/lib.rs](./src/lib.rs)
@@ -23,7 +22,6 @@
 Extension specific things:
 - theme:
   - [themes/](./themes)
-  - schema_version var in [extension.toml](./extension.toml)
 - regular:
   - [src/](./src)
   - [cargo.toml](./cargo.toml)

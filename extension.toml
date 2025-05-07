@@ -4,9 +4,7 @@ description    = "super cool awesome extension"
 version        = "0.0.1"
 authors        = ["Your name <your@email.com>"]
 repository     = "https://github.com/not-a-cowfr/zed-extension-template"
-
-# for themes
-schema_version = 2
+schema_version = 1
 
 # for snippets
 snippets = "./snippets/<language>.json"
