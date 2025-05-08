@@ -4,6 +4,6 @@ name = "Language name" # required
 grammar = "language-name" # required
 path_suffixes = ["super_cool_language_file_extension"]
 line_comments = ["// "]
-tab_size = 4 # default is true
+tab_size = 4 # default is 4
 hard_tabs = true # default is true
 # first_line_pattern = "" # for determining the language based on the first line, like for bash
